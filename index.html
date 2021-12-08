@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Site d'achat de photocopies</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width ,initial-scale-1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+     <div class="container">
+         <div class="row">
+            <h1>Bienvenue sur le site pour acheter vos photocopies :</h1>
+             <div class="col-sm 3 mx-auto mt-5 text center">
+                 <div class="mb-6">
+                     <label for="valeur-saisi" class="form-label">Combien de photocopies souhaitez-vous réaliser ?</label>
+                     <input type="number" class="form-control" id="valeur-saisi" aria-describedby="valeur-saisi">
+                     <div class="form-text">Rappel de nos tarifs : 10 cts les 10 premières copies , 9 cts les 20 suivantes et 8 cts pour toutes les suivantes .</div>
+                 </div>
+                 <button type="submit" id="bouton" class="btn btn primary mt-5 ,">Valider</button>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-sm-3 mx-auto mt-5 text-center">
+                 <div id="message"></div>
+             </div>
+         </div>
+     </div>
+    </body>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</html>
